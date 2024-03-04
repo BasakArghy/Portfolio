@@ -11,34 +11,18 @@ namespace Portfolio
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
+            if (TextBox2.Text=="arghy@gmail.com" && TextBox3.Text == "123")
+            {
+                Session["user"] = TextBox2.Text;
+                Session["pass"] = TextBox3.Text;
+                Response.Redirect("messege.aspx");
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
 
-            String mysqlCon = "Server=localhost;Database=my_sql;Uid=root;Pwd=;";
-
-            MySqlConnection mySqlConnection = new MySqlConnection(mysqlCon);
-
-            try
-            {
-                mySqlConnection.Open();
-
-                MySqlCommand first = new MySqlCommand("INSERT INTO reg_table (username,email,password) VALUES (@name,@email,@pass)", mySqlConnection);
-                first.Parameters.AddWithValue("@name", TextBox1.Text);
-                first.Parameters.AddWithValue("@email", TextBox2.Text);
-                first.Parameters.AddWithValue("@pass", TextBox3.Text);
-
-
-                int rownum = first.ExecuteNonQuery();
-
-
-                if (rownum > 0) Label1.Text = TextBox1.Text + "," + TextBox2.Text + "," + TextBox3.Text;
-
-            }
-            catch (Exception ex) { }
-            finally { mySqlConnection.Close(); }
         }
     }
     }

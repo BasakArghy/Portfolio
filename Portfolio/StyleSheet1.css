@@ -16,7 +16,7 @@
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: #ef0fc4;
 }
 
 html {
@@ -386,6 +386,8 @@ span {
         font-size: 2.4rem;
         color: var(--second-bg-color);
     }
+
+
 
 
 /* BREAKPOINTS */

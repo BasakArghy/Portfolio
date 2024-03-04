@@ -35,8 +35,7 @@ namespace Portfolio
               
                 int rownum1 = first1.ExecuteNonQuery();
 
-             if (rownum1 > 0) { Label1.Text = TextBox1.Text + "," + TextBox2.Text + "," + TextBox3.Text+","+ TextBox4.Text + "," + TextBox5.Text; }
-
+             
 
          }
          catch (Exception ex) { }

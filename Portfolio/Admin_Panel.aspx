@@ -6,10 +6,10 @@
 <head runat="server">
     <title></title>
 </head>
-<body>
+<body ">
     <form id="form1" runat="server">
         <div>
-             Name:<br/><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br/><br/>
+           
 
      Email:<br/><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
  

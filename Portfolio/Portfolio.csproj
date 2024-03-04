@@ -180,6 +180,7 @@
     <Content Include="images\database.png" />
     <Content Include="images\web.jpg" />
     <Content Include="JavaScript.js" />
+    <Content Include="messege.aspx" />
     <Content Include="Portfolio.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -210,6 +211,7 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="images\android.avif" />
+    <Content Include="images\android.webp" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -256,6 +258,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="messege.aspx.cs">
+      <DependentUpon>messege.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="messege.aspx.designer.cs">
+      <DependentUpon>messege.aspx</DependentUpon>
     </Compile>
     <Compile Include="Portfolio.aspx.cs">
       <DependentUpon>Portfolio.aspx</DependentUpon>

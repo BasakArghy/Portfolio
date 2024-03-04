@@ -20,6 +20,7 @@
             <a href="#services">Services</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
+          
         </nav>
     </header>
     <!-- home section design -->
@@ -28,15 +29,17 @@
         <h3>Hello, It's Me</h3>
         <h1>Arghy Basak</h1>
         <h3>And I'm a <span class="multiple-text"></span></h3>
-        <p>Simple Open Source icons carefully crafted for designers & developers.
-            In my autobiography, I plan on talking about who I am as a person and all the certified facts of my birth. </p>
+        <p>I'm a student of Khulna University of Engineering and Techonology.
+ I've been working at a camp for elementary children this summer,
+  and I'm excited to find my first teaching position for the coming school year. I have several original 
+ lesson plans I created during my teaching internship that I look forward to implementing in my own classroom.  </p>
         <div class="social-media">
-            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.facebook.com/arghy.basak?mibextid=JRoKGi"><i class='bx bxl-facebook'></i></a>
             <a href="#"><i class='bx bxl-twitter' ></i></a>
-            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.instagram.com/arghybasak/?igsh=azB5MWk5M3RtYzNs&fbclid=IwAR33Bdfwi7gDLsSdWP8rE3sFt9p5XRteiitFi4B-Teyrx9M3L31nreLGSPQ"><i class='bx bxl-instagram-alt' ></i></a>
             <a href="#"><i class='bx bxl-linkedin' ></i></a>
         </div>
-<a href="#" class="btn">Download CV</a>
+<a href="https://www.techbooky.com/wp-content/uploads/2022/07/resume_001.docx" class="btn">Download CV</a>
     </div>
     <div class="home-img">
         <img src="images/arghy2new.jpg" alt="">
@@ -99,7 +102,7 @@ We'll take you from absolute beginner to competent full-stack web developer in a
     <h2 class="heading">Latest <span>Project</span></h2>
 <div class="portfolio-container">
     <div class="portfolio-box">
-        <img src="images/c++.jpg" alt="">
+        <img src="images\c++.jpg" alt="">
         <div class="portfolio-layer">
             <h4>C++</h4>
             <p>
@@ -107,11 +110,11 @@ We'll take you from absolute beginner to competent full-stack web developer in a
                 was "Event Organizer".
             
             </p>
-            <a href="#"><i class='bx bx-link-external'></i></a>
+            <a href="https://github.com/BasakArghy/oop_project"><i class='bx bx-link-external'></i></a>
         </div>
     </div>
     <div class="portfolio-box">
-        <img src="images/android.avif" alt="">
+        <img src="images\android.avif" alt="">
         <div class="portfolio-layer">
             <h4>Android</h4>
             <p>
@@ -119,7 +122,7 @@ We'll take you from absolute beginner to competent full-stack web developer in a
                 anyone can send massage to your friends or relatives who are using this app.
             
             </p>
-            <a href="#"><i class='bx bx-link-external'></i></a>
+            <a href="https://github.com/BasakArghy/Android"><i class='bx bx-link-external'></i></a>
         </div>
     </div>
     <div class="portfolio-box">
@@ -131,7 +134,7 @@ We'll take you from absolute beginner to competent full-stack web developer in a
                 was "Tution Media".
             
             </p>
-            <a href="#"><i class='bx bx-link-external'></i></a>
+            <a href="https://github.com/BasakArghy/Database"><i class='bx bx-link-external'></i></a>
         </div>
     </div>    <div class="portfolio-box">
         <img src="images/web.jpg" alt="">
@@ -142,7 +145,7 @@ We'll take you from absolute beginner to competent full-stack web developer in a
                is "Salon Management".
             
             </p>
-            <a href="#"><i class='bx bx-link-external'></i></a>
+            <a href="https://github.com/BasakArghy/Web-Progam"><i class='bx bx-link-external'></i></a>
         </div>
     </div>
 </div>
@@ -168,7 +171,7 @@ We'll take you from absolute beginner to competent full-stack web developer in a
   
         <asp:Button ID="Button1" runat="server" Class="btn" Text="Send Message" OnClick="Button1_Click" /> <br/>
 
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+       
 
     </form>
 
@@ -180,8 +183,12 @@ We'll take you from absolute beginner to competent full-stack web developer in a
         <p>Copyright &copy; 2024 by Arghy | All Rights Reserved</p>
     </div>
     <div class="footer-iconTop">
-        <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+        <a href="Admin_Panel.aspx"><i class='bx bx-log-in-circle'> </i></a>
+       
+        
+          
     </div>
+   
 </footer>
 <!-- scroll reveal -->
 
@@ -193,5 +200,8 @@ We'll take you from absolute beginner to competent full-stack web developer in a
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <script src="JavaScript.js"></script>
+    
+     
+    
 </body>
 </html>
